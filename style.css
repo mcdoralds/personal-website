@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 75%;
+    height: 50%;
     vertical-align:middle;
     
 }
@@ -14,10 +14,3 @@
     vertical-align:middle;
   }
 
-
-
-.full-width-div {
-    position: absolute;
-    height: 50%;
-    left: 0;
-}
