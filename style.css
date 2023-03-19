@@ -16,3 +16,8 @@
 
 
 
+.full-width-div {
+    position: absolute;
+    height: 50%;
+    left: 0;
+}
