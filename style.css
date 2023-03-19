@@ -1,0 +1,18 @@
+/* style.css */
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75%;
+    vertical-align:middle;
+    
+}
+  
+.icons {
+    display: flex;
+    flex-direction: column;
+    vertical-align:middle;
+  }
+
+
+
