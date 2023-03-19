@@ -1,11 +1,16 @@
 /* style.css */
-#container-fluid {
+#container {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 50%;
     vertical-align: middle;
     
+}
+
+img {
+    height: 100%;
+    width: 100%;
 }
   
 .icons {
