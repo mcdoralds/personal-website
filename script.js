@@ -1,7 +1,7 @@
 // script.js
 
 const mainImage = document.getElementById('center-image');
-const icons = document.querySelectorAll('.icons img');
+const icons = document.querySelectorAll('#icons img');
 
 
   mainImage.addEventListener("mouseover", () => {

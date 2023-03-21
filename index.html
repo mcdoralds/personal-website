@@ -1,33 +1,29 @@
 <!-- index.html -->
 <!DOCTYPE html>
-<html>
-  
+<html lang="en">
 
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <link rel="stylesheet" href="style.css" />
-  </head>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=1">
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-  <body>
+<body>
 
-    <div class="container">
-      <div id="icons" class="container">
-        <img src="images/work.png" onmouseover="this.src='images/workhover.png'" onmouseout="this.src='images/work.png'" data-img="images/hover1.png">
-        <img src="images/projects.png" onmouseover="this.src='images/projectshover.png'" onmouseout="this.src='images/projects.png'" data-img="images/hover2.png">
-        <img src="images/aboutme.png" onmouseover="this.src='images/aboutmehover.png'" onmouseout="this.src='images/aboutme.png'" data-img="images/hover3.png">
-        <img src="images/contact.png" onmouseover="this.src='images/contacthover.png'" onmouseout="this.src='images/contact.png'" data-img="images/hover4.png">
-      </div>
-
-      <div id="main" class="container">
-        <img id="center-image" src="images/hovernone.png"/>
-      </div>
+  <div class="container">
+    <div id="icons">
+      <img src="images/work.png" onmouseover="this.src='images/workhover.png'" onmouseout="this.src='images/work.png'" data-img="images/hover1.png">
+      <img src="images/projects.png" onmouseover="this.src='images/projectshover.png'" onmouseout="this.src='images/projects.png'" data-img="images/hover2.png">
+      <img src="images/aboutme.png" onmouseover="this.src='images/aboutmehover.png'" onmouseout="this.src='images/aboutme.png'" data-img="images/hover3.png">
+      <img src="images/contact.png" onmouseover="this.src='images/contacthover.png'" onmouseout="this.src='images/contact.png'" data-img="images/hover4.png">
     </div>
 
-    <!--
-    The JavaScript code adds event listeners to the img element 
-    that change the source of the image when the mouse is hovered over it or when the mouse is moved away from it.
-    -->
-    <script src="script.js"></script>
+    <div id="main">
+      <img id="center-image" src="images/hovernone.png"/>
+    </div>
+  </div>
+
+ 
+  <script src="script.js"></script>
 
   </body>
 </html>
