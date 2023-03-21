@@ -8,15 +8,18 @@
     
 }
 
-#img {
-    height: 50%;
+img {
     width: auto;
-    max-width: 100%
 }
   
-.icons {
+#icons {
     display: flex;
     flex-direction: column;
     vertical-align:middle;
 }
 
+#main {
+    display: flex;
+    flex-direction: column;
+    vertical-align:middle;
+}
