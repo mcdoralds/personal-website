@@ -1,29 +1,31 @@
 /* style.css */
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    vertical-align: middle;
-    margin-right: -50%;
-    width:auto;
+div {
+    display:flex;
+    justify-content:center;
+}
 
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+.container {
+
 }
 
 img {
     width: 50%;
+    
+
 }
   
 #icons {
-    display: flex;
     flex-direction: column;
-    vertical-align:middle;
+    align-items: center;
+    
 }
 
 #main {
-    display: flex;
-    flex-direction: column;
-    vertical-align:middle;
+    display:flex;
+    align-items: center;
+}
+
+#center-image {
+    align-self: center;
+
 }
