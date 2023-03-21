@@ -1,5 +1,5 @@
 /* style.css */
-#container {
+.container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,9 +8,10 @@
     
 }
 
-#img {
+img {
     height: 50%;
     width: auto;
+    max-width: 100%
 }
   
 .icons {
