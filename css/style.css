@@ -1,4 +1,7 @@
 /* style.css */
+body {
+    background-color:#F8F0E3;
+}
 div {
     display:flex;
     justify-content:center;
