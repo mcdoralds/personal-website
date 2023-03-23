@@ -11,12 +11,11 @@ div {
 img {
     width: 50%;
     
-
 }
-  
+
 #icons {
     flex-direction: column;
-    align-items: center;
+    align-items: right;
     
 }
 
