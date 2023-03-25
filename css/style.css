@@ -27,6 +27,7 @@ div {
 
 .container {
     align-self: center;
+    align-items: right;
 }
 
 .jumbotron{
@@ -40,15 +41,25 @@ div {
 
 }
 
+a {
+    align-items: right;
+}
+
 img {
     width: 50%;
     
+}
+#main {
+    align-items: right;
 }
 
 #icons {
     flex-direction: column;
     align-items: right;
-    
+}
+
+#icons .a {
+
 }
 
 #main {
@@ -60,4 +71,5 @@ img {
     align-self: center;
 
 }
+
 

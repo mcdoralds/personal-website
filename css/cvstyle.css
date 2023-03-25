@@ -350,7 +350,7 @@ header .home:hover #arrow-left {
 .project-info {
     position: relative;
     text-transform: uppercase;
-    height: 70vh;
+    height: 10vh;
 }
 
 .info-wrapper {
