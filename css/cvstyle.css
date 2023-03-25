@@ -23,9 +23,9 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 }
 
 :root {
-    --wetSand: #F8F0E3;
+    --bgColor: #F8F0E3;
     --black: #2B2B2B;
-    --lime: #ff9a8a;
+    --accentColor: #ff9a8a;
     --size40: 40px;
     --size8: 8px;
 }
@@ -39,7 +39,7 @@ body, html {
 }
 
 body {
-    background-color: var(--wetSand);
+    background-color: var(--bgColor);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     scrollbar-width: none;
@@ -63,7 +63,7 @@ a:hover {
 main {
     position: relative;
     background-size: 120% 120%;
-    background-image: linear-gradient(to bottom right, var(--wetSand), var(--wetSand),var(--wetSand), var(--lime));
+    background-image: linear-gradient(to bottom right, var(--bgColor), var(--bgColor),var(--bgColor), var(--accentColor));
     padding: 0.5vw 1.5vw 1.5vw 1.5vw;
     z-index: 1;
     overflow: hidden;
@@ -277,7 +277,7 @@ header .home:hover #arrow-left {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: var(--lime);
+    background-color: var(--accentColor);
 }
 
 .hover-reveal__img {
@@ -303,7 +303,7 @@ header .home:hover #arrow-left {
 .back-link a {
     display: block;
     position: relative;
-    background-color: var(--lime);
+    background-color: var(--accentColor);
     border-radius: 50%;
     padding: 12px 24px 8px 24px;
     transform: scale(1.0);
@@ -530,34 +530,7 @@ header .home:hover #arrow-left {
     }
 }
 
-/** CV and Shop link **/
-.cv-link,
-.shop-link {
-    display: inline-block;
-    position: fixed;
-    top: 1vh;
-    z-index: 10;
-    background-color: var(--lime);
-    color: var(--black);
-    padding: 16px 32px;
-    border-radius: 50%;
-    font-weight: 800;
-    font-size: 24px;
-    opacity: 1;
-    transform: scale(1.0);
-    transition: transform 1.0s cubic-bezier(0.16, 1, 0.3, 1);
-    -webkit-transition: transform 1.0s cubic-bezier(0.16, 1, 0.3, 1);
-    -moz-transition: transform 1.0s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-.cv-link {
-    left: 1vw;
-}
-
-.shop-link {
-    right: 1vw;
-    position: absolute;
-}
+/** CV **/
 
 .cv-link:hover,
 .shop-link:hover {
@@ -835,65 +808,7 @@ footer .skf img {
     }
 }
 
-/** Mouse **/
 
-.circle {
-    width: 64px;
-    height: 64px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    pointer-events: none;
-    z-index: 9999;
-    mix-blend-mode: difference;
-    opacity: 1;
-    -webkit-transition:opacity 1.0s;
-    transition:opacity 1.0s;
-}
-
-.circle-outline, .circle-dot {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto auto;
-    border-radius: 100%;
-    transition: all 1.0s cubic-bezier(0.16, 1, 0.3, 1);
-    -webkit-transition: all 1.0s cubic-bezier(0.16, 1, 0.3, 1);
-    -moz-transition: all 1.0s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-.circle-outline {
-    width: 64px;
-    height: 64px;
-    z-index: 1;
-    background-color: transparent;
-    border: 2px solid var(--lime);
-}
-
-.circle.circle-hover .circle-outline {
-    width: 40px;
-    height: 40px;
-}
-
-.circle-dot {
-    width: 8px;
-    height: 8px;
-    z-index: 2;
-    opacity: 1;
-    background-color: var(--lime);
-    background-image: none;
-    background-size: 20px 20px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    content: "";
-}
-
-.circle.circle-hover .circle-dot {
-    width: 72px;
-    height: 72px;
-}
 
 @media only screen and (max-width: 1023px) {
     .circle {
@@ -915,7 +830,7 @@ footer .skf img {
     top: 0px;
     left: 0px;
     -webkit-transition:all 1.0s;
-    background-color: var(--wetSand);
+    background-color: var(--bgColor);
 }
 
 .preloader{
@@ -929,7 +844,7 @@ footer .skf img {
     width: 100vw;
     height: 100vh;
     z-index: 1000;
-    background-color: var(--wetSand);
+    background-color: var(--bgColor);
 }
 
 .preloader .loader {
@@ -940,7 +855,7 @@ footer .skf img {
     width: 40px;
     height: 20px;
     border-radius: 50%;
-    background-color: var(--lime);
+    background-color: var(--accentColor);
     transform: translate(-50%, -50%);
     -webkit-animation: AnimationLoader 1s ease-in-out infinite;
     -moz-animation: AnimationLoader 1s ease-in-out infinite;

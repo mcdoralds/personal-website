@@ -1,6 +1,23 @@
 /* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;800&display=swap');
+
+@font-face {
+    font-family: 'Didot';
+    src:url('../fonts/Didot.woff') format('woff'),
+    url('../fonts/Didot.woff2') format('woff2'),
+    url('../fonts/Didot.svg#Didot') format('svg'),
+    url('../fonts/Didot.eot'),
+    url('../fonts/Didot.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Didot.ttf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
     background-color:#F8F0E3;
+    font-family: 'Manrope', sans-serif;
 }
 
 div {
@@ -9,6 +26,17 @@ div {
 }
 
 .container {
+    align-self: center;
+}
+
+.jumbotron{
+
+    background-color:transparent !important; 
+    font-size: x-large;
+    width: 100%;
+}
+
+.jumbotron h1 {
 
 }
 
@@ -32,3 +60,4 @@ img {
     align-self: center;
 
 }
+
