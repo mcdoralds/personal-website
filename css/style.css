@@ -1,9 +1,14 @@
 .site-title {
-    font-family: monospace;
+	font-family: Courier New, Courier, Optima, Palatino Linotype, Palatino, serif;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .container-fluid.bg-secondary {
     width: 100%;
+        font-family: 'Courier New', Courier, monospace;
 }
   
 .container-fluid.bg-secondary img {
