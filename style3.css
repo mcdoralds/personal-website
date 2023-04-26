@@ -1,16 +1,16 @@
 body {
-	background-color: #F5F5DD;
-    
-  }
+	background-color: #ebebeb;
+}
   
-  .ratings i {
-    color: green;
-  }
+.ratings i {
+  color: #ff0081;
+}
   
-  .install span {
-    font-size: 12px;
-  }
+.install span {
+  font-size: 12px;
+}
   
-  .col-md-4 {
-    margin-top: 27px;
-  }
+.col-md-4 {
+  margin-top: 27px;
+}
+
