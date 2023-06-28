@@ -36,6 +36,27 @@ body {
   font-family: 'Noto Serif', serif;
 }
 
+model-viewer {
+  width: 800px;
+  height: 600px;
+
+}
+
 .box {
+  padding-top:10%;
+}
+
+.box h1 {
+  color:white;
+}
+
+.box p {
+  color:white;
+  font-size:larger;
+}
+
+.row {
   display:flex;
+  flex-wrap:wrap;
+  justify-content:left;
 }
