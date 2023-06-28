@@ -43,7 +43,7 @@ model-viewer {
 }
 
 .box {
-  padding-top:10%;
+  padding-top:200px;
 }
 
 .box h1 {
@@ -52,7 +52,6 @@ model-viewer {
 
 .box p {
   color:white;
-  font-size:larger;
 }
 
 .row {
