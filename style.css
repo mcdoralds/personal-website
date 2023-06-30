@@ -88,14 +88,14 @@ table, th, td {
 
 .card {
   margin: 10px;
-  background-color: rgba(255, 255, 255, 0.5) !important; 
+  background-color: rgba(148, 148, 148, 0.5) !important; 
   transition: transform 0.3s, box-shadow 0.3s;
 
 }
 
 .card:hover {
   transform: scale(1.05);
-  background-color: rgba(255, 255, 255, 0.7) !important; 
+  background-color: rgba(160, 160, 160, 0.7) !important; 
   box-shadow: 0px 0px 10px rgba(240, 129, 212, 0.432);
 }
 
@@ -104,3 +104,10 @@ table, th, td {
   margin-top: 10px;
 }
 
+.card-text {
+  color:rgb(231, 175, 161)
+}
+
+.card-text b{
+  color:rgb(219, 137, 116)
+}
