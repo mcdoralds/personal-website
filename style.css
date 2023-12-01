@@ -153,3 +153,16 @@ table, th, td {
   color:white;
   margin-left:125px;
 }
+
+
+/* .custom-card:hover #project-image-1 {
+  content: url('path/to/hover/image1.png');
+} */
+
+.custom-card:hover #project-image-2 {
+  content: url('project-icon-hover.png');
+}
+
+.custom-card:hover #project-image-3 {
+  content: url('project-icon3-hover.png');
+}
