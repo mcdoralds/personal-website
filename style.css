@@ -90,6 +90,7 @@ table, th, td {
   margin: 10px;
   background-color: rgba(148, 148, 148, 0.5) !important; 
   transition: transform 0.3s, box-shadow 0.3s;
+  position: relative;
 
 }
 
@@ -105,9 +106,50 @@ table, th, td {
 }
 
 .card-text {
-  color:rgb(231, 175, 161)
+  color:rgb(231, 175, 161);
 }
 
 .card-text b{
-  color:rgb(219, 137, 116)
+  color:rgb(219, 137, 116);
+}
+
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.ogh h1{
+  margin:100px;
+  color:white;
+}
+
+.ogh h2{
+  margin-left:100px;
+  color:white;
+}
+
+.ogh h3{
+  margin-left:100px;
+  color:white;
+  font-size:small
+}
+
+.ogh p{
+  margin-left:125px;
+  color:white;
+  font-size:small
+  word-wrap: break-word;
+}
+
+.ogh img{
+  margin-left:150px;
+  width:50%;
+}
+
+.ogh ul{
+  color:white;
+  margin-left:125px;
 }
