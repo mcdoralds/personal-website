@@ -12,20 +12,41 @@
         <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@300;500;600&family=Noto+Serif:wght@200;500&display=swap" rel="stylesheet">
     
         <title>&#10024 STELLA</title>
+
+
+            <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-FTTN3S43Q7"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-FTTN3S43Q7');
+        </script>
     </head>
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FTTN3S43Q7"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
 
-      gtag('config', 'G-FTTN3S43Q7');
-    </script>
 
     
     <body>
+
+      <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var card1 = document.getElementById('project-image-1');
+            var card2 = document.getElementById('project-image-2');
+            var card3 = document.getElementById('project-image-3');
+        
+            // card1.addEventListener('mouseover', function() { this.src = '/image1.png'; });
+            card1.addEventListener('mouseout', function() { this.src = 'project-icon4.png'; });
+        
+            card2.addEventListener('mouseover', function() { this.src = '/project-icon-hover.png'; });
+            card2.addEventListener('mouseout', function() { this.src = 'project-icon.png'; });
+        
+            card3.addEventListener('mouseover', function() { this.src = '/project-icon3-hover.png'; });
+            card3.addEventListener('mouseout', function() { this.src = 'project-icon3.png'; });
+        });
+        </script>
+
         <div class="center">
         <div class="logo-container">
             <a href="index.html"><img src="/logo-v3.gif" alt="Logo"></a>
