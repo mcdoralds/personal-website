@@ -126,7 +126,7 @@ body {
   justify-content: center;
   width: 100%;
   box-sizing: border-box;
-  margin: 30px 0px 30px 0px;
+  margin: 0px 0px 30px 0px;
 }
 
 .card {
@@ -150,7 +150,7 @@ body {
 
 .card-text {
   color:rgb(231, 175, 161);
-  font-family: 'Noto Serif Display', serif;
+  /* font-family: 'Noto Serif Display', serif; */
 }
 
 .card p-3 {
@@ -167,6 +167,19 @@ body {
   bottom: 0;
   left: 0;
   width: 100%;
+}
+
+.project-header {
+  margin: 20px 0px 0px 0px;
+  color:#ee7b45;
+  font-family: 'Noto Serif Display', serif;
+}
+
+.project-footer {
+  margin: 5px 0px 0px 0px;
+  color:#ee7b45;
+  font-family: 'Noto Serif Display', serif;
+  font-size: 12px;
 }
 
 
