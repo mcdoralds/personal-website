@@ -1,61 +1,74 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset=UTF-8>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=1">
-    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="/style.css" />
+<html lang="en">
 
-    
+  <!-- hi...  -->
+  <head>
+      <meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=1">
+      <!-- stylesheets  -->
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">    
+      <!-- preconnect to Google fonts  -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <!-- font: Noto Serif  -->
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Ser   if+Display:wght@300;500;600&family=Noto+Serif:wght@200;500&display=swap" rel="stylesheet">
+
+      <!-- Google 3d model viewer  -->
+      <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
+      <!-- title -->
+      <title>&#10024 ABOUT STELLA</title>
+
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-FTTN3S43Q7"></script>
+      <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-FTTN3S43Q7');
+      </script>
   </head>
 
-  
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FTTN3S43Q7"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-FTTN3S43Q7');
-  </script>
-
-
   <body>
-    <div class="center">
+    <!-- Logo -->
+    <div class="logo-row">
+      <div class="logo-container">
+        <a href="index.html"><img src="/logo-v3.gif" alt="Logo"></a>
+      </div>
+    </div>
 
-    <div class="row">
-
+    <div class="body-row">
+      <!-- Model Viewer -->
       <div class="model-viewer">
-        <model-viewer src="head.glb" camera-controls auto-rotate></model-viewer>
+        <model-viewer src="head.glb" camera-controls auto-rotate min-field-of-view='0deg'></model-viewer>
       </div>
-
+      <!-- About Me Box -->
       <div class="box">
-        <div class="logo-container">
-          <a href="index.html"><img src="/logo-v3.gif" alt="Logo"></a>
-        </div>
+        <h1 class="about-header">Hi, I'm Stella.</h1>
+        <div class="about-body">
+          <br><br><p>This is my website. </p>
+          <br><p>I like data science and technology and art.</p>
+          <br><p>I currently work remotely as a BI analyst.</p>
+          <!-- <br><p>I'm a gay data analyst from Los Angeles, CA.</p> -->
+          <!-- Stella AI Chat Bot -->
+          <br><br><br><p><u>Ask "me" anything.</u> (coming soon)</p>
   
-        <h1 class="">Hi, I'm Stella.</h1>
-        <p class="">I'm a data analyst from Los Angeles, CA.<br>I like computers. I believe in using technology for good.</p>
-
+          <br><br><p class="about-small">Currently Learning 👓 : PyGame, Advanced Power BI Data Modeling</p>
+          <p class="about-small">Currently Reading 📖 : <a href="https://app.thestorygraph.com/books/39ab9f2d-9dde-4cc2-8287-a01c6340a1f9">My Year of Rest and Relaxation</a>, <a href="https://app.thestorygraph.com/books/480a2469-9079-4a23-9962-5b045e70ee97">The Joy of Abstraction</a></p>
+          <p class="about-small">Currently Playing 🖥️ : <a href="https://store.steampowered.com/app/108600/Project_Zomboid/">Project Zomboid</a></p>
+          <p class="about-small">Currently Listening To ♫ : <a href="https://open.spotify.com/playlist/4kcMRLoNmwPVBsYVt0b2Gp?si=b8bebe3e6c9346ee">My Dec-2023 Playlist</a></p>
+          <br><p class="about-small-updated">Last updated: Dec-21-2023</p>
+        </div>
       </div>
-
-
-
     </div>
 
-    <div class="col-md-12">
+    <!-- Copyright -->
+    <div class="copyright">
       <p>
-          <br><br>© Stella Kim <script>document.write(new Date().getFullYear());</script>
+        © Stella Kim <script>document.write(new Date().getFullYear());</script>
       </p>
-
     </div>
-
-    </div>
-
-
-
   </body>
+
   <script src="/script.js"></script> 
+
 </html>
