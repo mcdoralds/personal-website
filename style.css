@@ -102,8 +102,7 @@ body {
   margin: 10px 0;
   font-size: 10px; 
   color: white;
-  l
-  ine-height: 5px;
+  line-height: 5px;
 }
 .about-small a{
   color: white;
@@ -120,6 +119,55 @@ body {
   line-height: 5px;
 }
 
+/* work.html */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 30px 0px 30px 0px;
+}
+
+.card {
+  margin: 10px;
+  background-color: rgba(148, 148, 148, 0.5) !important; 
+  transition: transform 0.3s, box-shadow 0.3s;
+  position: relative;
+  text-align: center;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background-color: rgba(160, 160, 160, 0.7) !important; 
+  box-shadow: 0px 0px 10px rgba(240, 129, 212, 0.432);
+}
+
+.card-img-top {
+  align-self: center;
+  margin-top: 10px;
+}
+
+.card-text {
+  color:rgb(231, 175, 161);
+  font-family: 'Noto Serif Display', serif;
+}
+
+.card p-3 {
+  background-color: black;
+}
+
+.card-text b{
+  color:rgb(219, 137, 116);
+}
+
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
 
 
 
@@ -152,8 +200,6 @@ body {
 
 
 
-
-
 table, th, td {
 	border: solid rgb(255, 0, 200) 10px;
 	border-collapse: collapse;
@@ -164,46 +210,7 @@ table, th, td {
 }
 
 
-.card p-3 {
-  background-color: black;
-}
 
-
-
-.card {
-  margin: 10px;
-  background-color: rgba(148, 148, 148, 0.5) !important; 
-  transition: transform 0.3s, box-shadow 0.3s;
-  position: relative;
-
-}
-
-.card:hover {
-  transform: scale(1.05);
-  background-color: rgba(160, 160, 160, 0.7) !important; 
-  box-shadow: 0px 0px 10px rgba(240, 129, 212, 0.432);
-}
-
-.card-img-top {
-  align-self: center;
-  margin-top: 10px;
-}
-
-.card-text {
-  color:rgb(231, 175, 161);
-}
-
-.card-text b{
-  color:rgb(219, 137, 116);
-}
-
-.card-link {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-}
 
 .ogh h1{
   margin:100px;
@@ -218,7 +225,7 @@ table, th, td {
 .ogh h3{
   margin-left:100px;
   color:white;
-  font-size:small
+  font-size: small;
 }
 
 .ogh p{
@@ -237,5 +244,3 @@ table, th, td {
   color:white;
   margin-left:125px;
 }
-
-

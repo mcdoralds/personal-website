@@ -1,139 +1,89 @@
 <!doctype html>
 
 <html>
-    <!-- WHY ARE YOU LOOKING HERE?! IT'S A MESS. GO AWAY. -->
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=1">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="/style.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">   
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@300;500;600&family=Noto+Serif:wght@200;500&display=swap" rel="stylesheet">
-    
-        <title>&#10024 STELLA</title>
+  <!-- WHY ARE YOU LOOKING HERE?! IT'S A MESS. GO AWAY. -->
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=1">
+    <!-- stylesheets  -->
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">   
+    <!-- preconnect to Google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- font: Noto Serif  -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@300;500;600&family=Noto+Serif:wght@200;500&display=swap" rel="stylesheet">
 
-        <!-- Google tag (gtag.js) - I am watching your every move  -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-FTTN3S43Q7"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-FTTN3S43Q7');
-        </script>
-    </head>
+    <!-- title -->
+    <title>&#10024 STELLA'S PROJECTS</title>
 
+    <!-- Google tag (gtag.js) - I am watching your every move  -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FTTN3S43Q7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-FTTN3S43Q7');
+    </script>
+  </head>
 
-
-    <body>
-      <!-- mouseover magic -->
-      <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var card1 = document.getElementById('project-image-1');
-            var card2 = document.getElementById('project-image-2');
-            var card3 = document.getElementById('project-image-3');
+  <body>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+          var card1 = document.getElementById('project-image-1');
+          var card2 = document.getElementById('project-image-2');
+          var card3 = document.getElementById('project-image-3');
             
-            // card1.addEventListener('mouseover', function() { this.src = '/image1.png'; });
-            card1.addEventListener('mouseout', function() { this.src = 'project-icon4.png'; });
+          // card1.addEventListener('mouseover', function() { this.src = '/image1.png'; });
+          card1.addEventListener('mouseout', function() { this.src = 'project-icon4.png'; });
       
-            card2.addEventListener('mouseover', function() { this.src = '/project-icon-hover.png'; });
-            card2.addEventListener('mouseout', function() { this.src = 'project-icon.png'; });
+          card2.addEventListener('mouseover', function() { this.src = '/project-icon-hover.png'; });
+          card2.addEventListener('mouseout', function() { this.src = 'project-icon.png'; });
         
-            card3.addEventListener('mouseover', function() { this.src = '/project-icon3-hover.png'; });
-            card3.addEventListener('mouseout', function() { this.src = 'project-icon3.png'; });
-        });
-        </script>
+          card3.addEventListener('mouseover', function() { this.src = '/project-icon3-hover.png'; });
+          card3.addEventListener('mouseout', function() { this.src = 'project-icon3.png'; });
+      });
+    </script>  
 
-        <div class="center">
-        <div class="logo-container">
-            <a href="index.html"><img src="/logo-v3.gif" alt="Logo"></a>
+    <!-- Logo -->
+    <div class="logo-row">
+      <div class="logo-container">
+        <a href="index.html"><img src="/logo-v3.gif" alt="Logo"></a>
+      </div>
+    </div>    
+
+    <div class="row">
+
+      <div class="card custom-card" style="width: 15rem;">
+        <img class="card-img-top card-hover" id="project-image-1" style="width: 14rem;" src="project-icon4.png">
+          <div class="card-body">
+            <p class="card-text"><b><a href="https://github.com/mcdoralds/spotify-dashboard/tree/main" style="color: tomato; text-decoration: underline;">Spotify Data Analysis</a></b>
+            <br>Data retrieval, analysis, and visualization of Spotify data and analytics.</p>
+          </div>
+      </div>
+
+      <div class="card custom-card" style="width: 15rem;">
+        <img class="card-img-top card-hover" id="project-image-2" style="width: 14rem;" src="project-icon.png">
+        <div class="card-body">
+          <p class="card-text"><b>Custom Report Engine</b>
+          <br>Dynamic report generator that creates detailed PDF reports from Excel data.</p>
+          </div>
+      </div>
+
+      <div class="card custom-card" style="width: 15rem;">
+        <img class="card-img-top card-hover" id="project-image-3" style="width: 14rem;" src="project-icon3.png">
+        <div class="card-body">
+          <p class="card-text"><b>@ Versus Systems</b>
+            <br>HP OMEN Rewards, XEO (previously XCite), and Winfinite analytics.</p>
         </div>
-
-        <div class="container mt-5">
-
-                <div class="row justify-content-center text-center">
-                    <div class="">
-                    <div class="container-fluid">
-                        <!-- <h1 class="site-title">STELLA K.</h1> -->
-                    </div>
-                    </div>
-                </div>
-
-                <div class="row">
-
-                  <div class="card custom-card" style="width: 15rem;">
-                    <img class="card-img-top card-hover" id="project-image-1" style="width: 14rem;" src="project-icon4.png">
-                        <div class="card-body">
-                          <p class="card-text"><b><a href="https://github.com/mcdoralds/spotify-dashboard/tree/main" style="color: tomato; text-decoration: underline;">Spotify Data Analysis</a></b>
-                            <br>
-                             Data retrieval, analysis, and visualization of Spotify data and analytics.
-
-                          </p>
-                        </div>
-                    </div>
-
-                    <div class="card custom-card" style="width: 15rem;">
-                      <img class="card-img-top card-hover" id="project-image-2" style="width: 14rem;" src="project-icon.png">
-
-                        <div class="card-body">
-                          <p class="card-text"><b>Custom Report Engine</b>
-                            <br>
-                            Dynamic report generator that creates detailed PDF reports from Excel data. 
-
-                          </p>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card custom-card" style="width: 15rem;">
-                      <img class="card-img-top card-hover" id="project-image-3" style="width: 14rem;" src="project-icon3.png">
-                        <div class="card-body">
-                          <p class="card-text"><b>@ Versus Systems</b>
-                            <br>
-                            HP OMEN Rewards, XEO (previously XCite), and Winfinite analytics.
-
-                          </p>
-                        </div>
-                    </div>
-
-
-
-                    <!-- <div class="card" style="width: 15rem;">
-                        <img class="card-img-top" style="width: 14rem;" src="project-icon4.png">
-                        <div class="card-body">
-                          <p class="card-text"><b>Champion Dashboard</b>
-                            <br>
-                            A champion mastery analysis and dashboard for League of Legends.
-
-                          </p>
-                        </div>
-                    </div> -->
-
-                    <!-- <div class="card" style="width: 15rem;">
-                        <img class="card-img-top" style="width: 14rem;" src="project-icon2.png">
-                        <div class="card-body">
-                          <p class="card-text"><b>XEO Analytics</b>
-                            <br>
-                            Data support, presentation, and delivery for a live fan engagement platform.
-                            
-
-                          </p>
-                        </div>
-                    </div> -->
-
-                </div>
-
-
-        <div class="container mt-5">
-            <div class="row">
-                <div class="container-fluid text-center">
-                    <p>
-                      © Stella Kim <script>document.write(new Date().getFullYear());</script>
-                    </p>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
-        
-    </body>    
+    
+    <!-- Copyright -->
+    <div class="copyright">
+      <p>
+        © Stella Kim <script>document.write(new Date().getFullYear());</script>
+      </p>
+    </div>
+
+  </body>    
 </html> 
