@@ -129,6 +129,10 @@ body {
   margin: 0px 0px 30px 0px;
 }
 
+.project-footer a {
+  color:#fb5000;
+}
+
 .card {
   margin: 10px;
   background-color: rgba(148, 148, 148, 0.5) !important; 
