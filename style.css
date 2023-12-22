@@ -110,7 +110,7 @@ body {
 
 .about-small-updated {
   font-size: 8px; 
-  color: rgb(255, 120, 224);
+  color: #ee7b45;
 }
 
 .about-body {
@@ -186,7 +186,6 @@ body {
 
 
 
-
 .list-inline-item:not(:last-child)::after {
   content: "__";
   margin-left:20px;
@@ -208,52 +207,131 @@ body {
 }
 
 
+/* projects */
+.projects-row {
+  padding: 0px 30px 10px 30px;
+  margin: 50px auto;
+}
 
+.projects-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
 
+.projects-table th, .projects-table td {
+  padding: 10px;
+  text-align: left;
+  color: #fff;
+  border: solid rgb(255, 0, 200) 5px;
+}
 
+.projects-table th {
+  color: #fff;
+  border: solid rgb(255, 0, 200) 5px;
+  background-color:rgb(255, 0, 200);
+  text-align: center;
+  font-size: large;
+}
+
+.projects-table tbody tr:nth-child(even) {
+  color: #fff;
+  border: solid rgb(255, 0, 200) 5px;
+}
+
+.projects-table tbody tr:hover {
+  color: #fff;
+  border: solid rgb(255, 0, 200) 10px;
+  background-color: rgb(255, 0, 200, 0.5);
+  
+}
+
+.projects-table th:first-child,
+.projects-table td:first-child {
+  width: 50%; 
+}
+
+.projects-table th:nth-child(2),
+.projects-table th:nth-child(2) {
+  width: 15%; 
+}
 
 
 table, th, td {
-	border: solid rgb(255, 0, 200) 10px;
+	border: solid rgb(255, 0, 200) 7px;
 	border-collapse: collapse;
 	padding: 3px;
-	margin-left: auto;
-	margin-right: auto;
 	text-align: left;
 }
 
 
-
-
-.ogh h1{
-  margin:100px;
-  color:white;
+.icon-link {
+  text-align: center;
 }
 
-.ogh h2{
-  margin-left:100px;
-  color:white;
+.icon-link img {
+  width: 50px; 
+  height: 50px; 
+  border-radius: 50%; 
+  margin-top: 50px;
 }
 
-.ogh h3{
-  margin-left:100px;
-  color:white;
-  font-size: small;
+
+.tag-container {
+  display: flex;
 }
 
-.ogh p{
-  margin-left:125px;
-  color:white;
-  font-size:small
-  word-wrap: break-word;
+.tag {
+  padding: 2px 10px 2px 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background-color: #94847c;
 }
 
-.ogh img{
-  margin-left:150px;
-  width:50%;
+.tag.personal {
+  background-color: #eec9ed;
+  color:#ed00f1;
+  
 }
 
-.ogh ul{
-  color:white;
-  margin-left:125px;
+.tag.data-visualization {
+  background-color: #ecd2c5;
+  color:#fb5000;
+  font-style: bold;
+}
+
+.tag.development {
+  background-color: #f4de94;
+  color:#8c7719;
+  
+}
+
+.tag.illustration {
+  background-color: #c9cbee;
+  color:#006aff;
+  
+}
+
+.tag.design {
+  background-color: #dcc6e7;
+  color:#9500ff;
+  
+}
+
+.tag.writing {
+  background-color: #c7e7c6;
+  color:#008120;
+  
+}
+
+.tag.analysis {
+  background-color: #f8a4a4;
+  color:#ff0000;
+  
+}
+
+.tag.client-management {
+  background-color: #9ed4ea;
+  color:#0074a6;
+  
 }
