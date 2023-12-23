@@ -174,7 +174,7 @@ body {
 }
 
 .project-header {
-  margin: 20px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
   color:#ee7b45;
   font-family: 'Noto Serif Display', serif;
 }
@@ -220,19 +220,19 @@ body {
 .projects-table {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 .projects-table th, .projects-table td {
   padding: 10px;
   text-align: left;
   color: #fff;
-  border: solid rgb(255, 0, 200) 5px;
+  border: solid rgb(255, 0, 200) 3px;
 }
 
 .projects-table th {
   color: #fff;
-  border: solid rgb(255, 0, 200) 5px;
+  border: solid rgb(255, 0, 200) 3px;
   background-color:rgb(255, 0, 200);
   text-align: center;
   font-size: large;
@@ -240,12 +240,12 @@ body {
 
 .projects-table tbody tr:nth-child(even) {
   color: #fff;
-  border: solid rgb(255, 0, 200) 5px;
+  border: solid rgb(255, 0, 200) 3px;
 }
 
 .projects-table tbody tr:hover {
   color: #fff;
-  border: solid rgb(255, 0, 200) 10px;
+  border: solid rgb(255, 0, 200) 3px;
   background-color: rgb(255, 0, 200, 0.5);
   
 }
@@ -260,9 +260,19 @@ body {
   width: 15%; 
 }
 
+table a {
+  color:white;
+  text-decoration:none;
+}
+
+table a:hover {
+  color:white;
+  text-decoration: underline;
+}
 
 table, th, td {
-	border: solid rgb(255, 0, 200) 7px;
+	border: solid rgb(255, 0, 200) 5px;
+  background-color: rgb(255, 0, 200, 0.1);
 	border-collapse: collapse;
 	padding: 3px;
 	text-align: left;
@@ -280,7 +290,13 @@ table, th, td {
   margin-top: 50px;
 }
 
+.project-info p {
+  text-align: center;
+  margin: 30px 0px 0px 0px;
+  color:#febdff;
+}
 
+/* Tags on projects.html */
 .tag-container {
   display: flex;
 }
@@ -335,6 +351,12 @@ table, th, td {
 }
 
 .tag.client-management {
+  background-color: #9ed4ea;
+  color:#0074a6;
+  
+}
+
+.tag.event-coordination {
   background-color: #9ed4ea;
   color:#0074a6;
   
