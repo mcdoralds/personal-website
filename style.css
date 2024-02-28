@@ -94,25 +94,23 @@ model-viewer {
   border-bottom: 1px solid #FF00FF;
 }
 
-.work-body-row, .contact-row {
+/* Body Content */
+.work-body-row, .contact-row, .project-body-row {
   font-family:'kode mono', monospace;
-  margin: 30px 0px 50px 0px;
+  margin: 20px 0px 20px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
+/* Work */
 .work-body-row p{
   color:#FF00FF;
   font-size: 20px;
 }
 
-.contact-row p {
-  color:#FF00FF;
-  font-size: 15px;
-}
-
+/* Work , Projects */
 .projects-row {
   display: flex;
   gap: 10px;
@@ -121,12 +119,12 @@ model-viewer {
 
 .project-card {
   width: 15rem;
-  height: 20rem;
+  height: 17.5rem;
   border: 4px solid #FF00FF !important;
   border-radius: 8px; 
   background-color: rgba(0, 0, 0, 0) !important;
   transition: transform 0.3s ease;
-  padding: 10px;
+  padding: 10px 5px 10px 5px;
 }
 
 .project-card:hover {
@@ -152,6 +150,70 @@ model-viewer {
 }
 
 .card-body p {
+  font-size: 15px;
+}
+
+.project-body-row p {
+  color: #FF00FF;
+  font-size: 20px;
+}
+
+table, td {
+  border: solid #FF00FF 5px;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 10px;
+}
+
+td {
+  padding: 5px 20px 5px 10px;
+}
+
+tr, tr a:visited {
+  color: #FF00FF;
+}
+
+tr a{
+  text-decoration: none;
+}
+
+tr:hover {
+  background-color: #FF00FF;
+  color:#000000 !important;
+}
+
+th {
+  border: solid #FF00FF 5px;
+  color:#000000;
+  background-color:#FF00FF;
+}
+
+tr a:hover, tr a:visited {
+  color: inherit;
+  background-color: #FF00FF;
+}
+
+tr:hover p {
+
+}
+
+.tag-container .tag {
+  display: inline-block;
+  background-color: #f2f2f2; 
+  padding: 5px 10px; 
+  font-size: 8px; 
+  border-radius: 10px; 
+  margin: 2px; 
+  text-transform: lowercase;
+}
+
+.tag-container p,.tag-container p:hover, .tag-container  {
+  color:#FF00FF;
+}
+
+/* Contact */
+.contact-row p {
+  color:#FF00FF;
   font-size: 15px;
 }
 
